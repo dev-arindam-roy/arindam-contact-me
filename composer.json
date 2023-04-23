@@ -1,0 +1,34 @@
+{
+    "name": "arindam/contact-me",
+    "description": "Hey, I'm Arindam Roy. It's connect with me",
+    "type": "laravel-package",
+    "license": "MIT",
+    "keywords": [
+        "arindam",
+        "arindam-roy",
+        "creative-syntax",
+        "onexcrm"
+    ],
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arindam\\ContactMe\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arindam\\ContactMe\\ArindamContactMe"
+            ]
+        }
+    }
+}
