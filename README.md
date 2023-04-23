@@ -1,6 +1,6 @@
-# Konnektive CRM API Documentation
+# Hey, I'm Arindam
 
-### All useful links and documentation for Konnektive CRM and CheckoutChamp CRM.
+### Hey, I'm Arindam Roy. It's connect with me.
 
 ## Installation
 
@@ -9,7 +9,7 @@
 ### STEP 1: Run the composer command:
 
 ```shell
-composer require konnective-crm/api-doc
+composer require arindam/contact-me
 ```
 
 ### STEP 2: Laravel without auto-discovery:
@@ -17,7 +17,7 @@ composer require konnective-crm/api-doc
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```php
-KonnektiveCrm\ApiDoc\KonnektiveCrmApiDoc::class,
+Arindam\ContactMe\ArindamContactMe::class,
 ```
 
 ## How to use?: It's Very Easy
@@ -29,7 +29,7 @@ KonnektiveCrm\ApiDoc\KonnektiveCrmApiDoc::class,
 </dl>
 
 ```php
-Ex: http://your-website/konnektive-crm-api-doc
+Ex: http://your-website/hi-arindam
 
-Ex: http://localhost:8000/konnektive-crm-api-doc
+Ex: http://localhost:8000/hi-arindam
 ```
